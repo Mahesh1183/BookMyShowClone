@@ -1,0 +1,326 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.fnav {
+    display: flex;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    padding: 6px;
+    margin-top: 11px;
+    color: white;
+}
+
+.left img {
+    width: 115px;
+    height: 33.9;
+}
+
+.content input {
+    width: calc(100% - 50px);
+    border: none;
+    background: white;
+    box-shadow: none;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+    outline: 0px;
+    max-width: 500px;
+}
+
+.fnav .content {
+    display: flex;
+    flex-flow: row;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    opacity: 1;
+    cursor: text;
+    width: calc(100% - 134px);
+    max-width: 549px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.fnav .right {
+    display: flex;
+}
+
+.fnav .right p {
+    margin-inline: 22px;
+}
+
+.right button {
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+}
+
+.right i {
+    margin-inline: 22px;
+    width: 22px;
+    height: 14px;
+}
+
+.sec-nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(245, 245, 245);
+}
+
+.sec-nav .s-left {
+    display: flex;
+}
+
+.sec-nav .s-left p {
+    margin-inline-start: 18px;
+    padding: 0px 10px;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+
+}
+
+.sec-nav .s-right p {
+    margin-inline-start: 16px;
+    font-size: 12px;
+    padding: 0px 12px;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    color: rgb(51, 51, 51);
+    font-style: normal;
+}
+
+.sec-nav .s-right {
+    display: flex;
+}
+
+.main img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.movies-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.movie-card {
+    width: 180px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.movie-info {
+    padding: 10px;
+}
+
+.movie-info h3 {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.movie-info p {
+    font-size: 14px;
+    color: #777;
+}
+
+.rating, .votes, .likes {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.fa-star {
+    color: #ffcc00;
+}
+
+.fa-thumbs-up {
+    color: #4CAF50;
+}
+
+/* Styling for horizontal scrolling */
+.movies-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.movies-wrapper::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.movies-wrapper::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+.premiere h1 {
+    color: rgb(255, 255, 255);
+    word-break: break-word;
+    font-family: "Roboto", system-ui;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.17;
+}
+
+.premiere h4 {
+    color: rgb(255, 255, 255);
+    word-break: break-word;
+    font-family: "Roboto", system-ui;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.43;
+
+}
+
+.hero {
+    background: url('./hero-banner.avif') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+
+/* Footer General Styling */
+.footer {
+    background-color: #333;
+    color: #ccc;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer a {
+    color: #999;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+/* Footer Sections */
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.footer-section h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-media i {
+    margin: 0 10px;
+    color: #ccc;
+    font-size: 18px;
+}
+
+.social-media i:hover {
+    color: #ff5722;
+    cursor: pointer;
+}
+
+/* Footer Copyright */
+.copyright {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
